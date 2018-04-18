@@ -12535,28 +12535,33 @@
     ]
   },
   "packageFolders": {
-    "/home/robert/.nuget/packages/": {},
-    "/usr/share/dotnet/sdk/NuGetFallbackFolder": {}
+    "C:\\Users\\Robert\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
+    "restoreSettings": {
+      "hideWarningsAndErrors": true
+    },
     "restore": {
-      "projectUniqueName": "/home/robert/Documents/Dotnet/Project001/Project001.csproj",
+      "projectUniqueName": "D:\\Documents\\DotNetProjects\\AspNetCoreFundamentalsPluralsight\\Project001\\Project001.csproj",
       "projectName": "Project001",
-      "projectPath": "/home/robert/Documents/Dotnet/Project001/Project001.csproj",
-      "packagesPath": "/home/robert/.nuget/packages/",
-      "outputPath": "/home/robert/Documents/Dotnet/Project001/obj/",
+      "projectPath": "D:\\Documents\\DotNetProjects\\AspNetCoreFundamentalsPluralsight\\Project001\\Project001.csproj",
+      "packagesPath": "C:\\Users\\Robert\\.nuget\\packages\\",
+      "outputPath": "D:\\Documents\\DotNetProjects\\AspNetCoreFundamentalsPluralsight\\Project001\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/home/robert/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\Robert\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -12573,14 +12578,14 @@
     "frameworks": {
       "netcoreapp2.0": {
         "dependencies": {
-          "Microsoft.AspNetCore.All": {
-            "target": "Package",
-            "version": "[2.0.5, )"
-          },
           "Microsoft.NETCore.App": {
             "target": "Package",
-            "version": "[2.0.0, )",
+            "version": "2.0.0",
             "autoReferenced": true
+          },
+          "Microsoft.AspNetCore.All": {
+            "target": "Package",
+            "version": "2.0.5"
           }
         },
         "imports": [

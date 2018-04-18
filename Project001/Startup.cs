@@ -31,7 +31,7 @@ namespace Project001
                 app.UseDeveloperExceptionPage();
             }
 
-            app.UseStaticFiles();
+            app.UseFileServer();
 
             app.Run(async (context) =>
             {
