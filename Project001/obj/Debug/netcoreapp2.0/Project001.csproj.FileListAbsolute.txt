@@ -8,3 +8,14 @@
 /home/robert/Documents/Dotnet/Project001/obj/Debug/netcoreapp2.0/Project001.AssemblyInfo.cs
 /home/robert/Documents/Dotnet/Project001/obj/Debug/netcoreapp2.0/Project001.dll
 /home/robert/Documents/Dotnet/Project001/obj/Debug/netcoreapp2.0/Project001.pdb
+D:\Documents\DotNetProjects\AspNetCoreFundamentalsPluralsight\Project001\bin\Debug\netcoreapp2.0\Project001.deps.json
+D:\Documents\DotNetProjects\AspNetCoreFundamentalsPluralsight\Project001\bin\Debug\netcoreapp2.0\Project001.runtimeconfig.json
+D:\Documents\DotNetProjects\AspNetCoreFundamentalsPluralsight\Project001\bin\Debug\netcoreapp2.0\Project001.runtimeconfig.dev.json
+D:\Documents\DotNetProjects\AspNetCoreFundamentalsPluralsight\Project001\bin\Debug\netcoreapp2.0\Project001.dll
+D:\Documents\DotNetProjects\AspNetCoreFundamentalsPluralsight\Project001\bin\Debug\netcoreapp2.0\Project001.pdb
+D:\Documents\DotNetProjects\AspNetCoreFundamentalsPluralsight\Project001\obj\Debug\netcoreapp2.0\Project001.csprojResolveAssemblyReference.cache
+D:\Documents\DotNetProjects\AspNetCoreFundamentalsPluralsight\Project001\obj\Debug\netcoreapp2.0\Project001.csproj.CoreCompileInputs.cache
+D:\Documents\DotNetProjects\AspNetCoreFundamentalsPluralsight\Project001\obj\Debug\netcoreapp2.0\Project001.AssemblyInfoInputs.cache
+D:\Documents\DotNetProjects\AspNetCoreFundamentalsPluralsight\Project001\obj\Debug\netcoreapp2.0\Project001.AssemblyInfo.cs
+D:\Documents\DotNetProjects\AspNetCoreFundamentalsPluralsight\Project001\obj\Debug\netcoreapp2.0\Project001.dll
+D:\Documents\DotNetProjects\AspNetCoreFundamentalsPluralsight\Project001\obj\Debug\netcoreapp2.0\Project001.pdb
