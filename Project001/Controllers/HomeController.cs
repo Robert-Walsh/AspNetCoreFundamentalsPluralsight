@@ -7,9 +7,11 @@ namespace Project001.Controllers
     {
         public IActionResult Index()
         {
-            var model = new Restaurant { Id = 1, Name = "Rob's Pizza Place"};
+            var model = new Restaurant {
+                Id = 1, Name = "Rob's Pizza Place"
+            };
 
-            return new ObjectResult(model);
+            return View(model);
         }
     }
 }

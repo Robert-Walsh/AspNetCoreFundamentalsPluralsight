@@ -47,8 +47,6 @@ namespace Project001
 
         private void ConfigureRoutes(IRouteBuilder routeBuilder)
         {
-            // /Home/Index/4
-
             routeBuilder.MapRoute("Default", 
                 "{controller=Home}/{action=Index}/{id?}");
         }
