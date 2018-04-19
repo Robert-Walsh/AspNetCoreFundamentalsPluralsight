@@ -1,15 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using Microsoft.AspNetCore.Mvc;
+using Project001.Models;
 
 namespace Project001.Controllers
 {
-    public class HomeController
+    public class HomeController : Controller
     {
-        public string Index()
+        public IActionResult Index()
         {
-            return "Hello from the Home Controller";
+            var model = new Restaurant { Id = 1, Name = "Rob's Pizza Place"};
+
+            return new ObjectResult(model);
         }
     }
 }
