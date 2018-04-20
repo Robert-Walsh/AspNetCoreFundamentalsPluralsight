@@ -6,5 +6,6 @@ namespace Project001.Services
     public interface IRestaurantData
     {
         IEnumerable<Restaurant> GetAll();
+        Restaurant Get(int id);
     }
 }
