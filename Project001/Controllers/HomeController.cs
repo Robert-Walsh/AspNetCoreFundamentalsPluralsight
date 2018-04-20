@@ -32,5 +32,10 @@ namespace Project001.Controllers
             }
             return View(model);
         }
+
+        public IActionResult Create()
+        {
+            return View();
+        }
     }
 }
