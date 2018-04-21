@@ -12,9 +12,9 @@ namespace Project001.Services
         {
             _restaurants = new List<Restaurant>         
             {
-                new Restaurant{ Id = 1, Name = "Rob's Pizza Place"},
-                new Restaurant{ Id = 2, Name = "Temple of Camden"},
-                new Restaurant{ Id = 3, Name = "Pitta Party"}
+                new Restaurant{ Id = 1, Name = "Rob's Pizza Place", Cuisine=CuisineType.Italian},
+                new Restaurant{ Id = 2, Name = "Temple of Camden", Cuisine=CuisineType.Vegan},
+                new Restaurant{ Id = 3, Name = "Pitta Party", Cuisine=CuisineType.Vegan}
             };
         }
 
