@@ -1,8 +1,6 @@
 ﻿using Project001.Models;
-using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Threading.Tasks;
 
 namespace Project001.Services
 {
@@ -12,7 +10,7 @@ namespace Project001.Services
 
         public InMemoryRestaurantData()
         {
-            _restaurants = new List<Restaurant>
+            _restaurants = new List<Restaurant>         
             {
                 new Restaurant{ Id = 1, Name = "Rob's Pizza Place"},
                 new Restaurant{ Id = 2, Name = "Temple of Camden"},
@@ -37,7 +35,5 @@ namespace Project001.Services
         {
             return _restaurants.OrderBy(r => r.Name);
         }
-
-
     }
 }
