@@ -20,6 +20,14 @@ namespace Project001.Services
             };
         }
 
+        public Restaurant Add(Restaurant restaurant)
+        {
+            restaurant.Id = _restaurants.Max(r => r.Id) + 1;
+            _restaurants.Add(restaurant);
+
+            return restaurant;
+        }
+
         public Restaurant Get(int id)
         {
             return _restaurants.Find(r => r.Id == id);
