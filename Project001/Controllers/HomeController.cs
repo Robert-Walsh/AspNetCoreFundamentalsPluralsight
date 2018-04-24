@@ -19,7 +19,7 @@ namespace Project001.Controllers
         public IActionResult Index()
         {
             var model = new HomeIndexViewModel();
-            model.Restaurants = _restaurantData.GetAll();
+           // model.Restaurants = _restaurantData.GetAll();
             model.CurrentMessage = _greeter.GetMessageOfTheDay(); 
 
             return View(model);

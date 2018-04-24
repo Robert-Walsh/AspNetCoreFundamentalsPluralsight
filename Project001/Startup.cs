@@ -20,7 +20,7 @@ namespace Project001
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddSingleton<IGreeter, Greeter>();
-            services.AddSingleton<IRestaurantData, InMemoryRestaurantData>();
+            services.AddSingleton<IRestaurantData, MongoRestaurantData>();
             services.AddMvc();
         }
 
